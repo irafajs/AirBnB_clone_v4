@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  const amenityIds = [];
+  let amenityIds = [];
 
   $('input[type="checkbox"]').change(function () {
     const amenityId = $(this).data('id');
